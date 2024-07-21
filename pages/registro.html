@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../estilos.css" />
+    <title>Registrate</title>
+</head>
+<body>
+    <!-- INICIO NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-danger navbar-dark sticky-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html">Tienda Importa</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Registro</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- FIN NAVBAR -->
+    <section id="registro" class="formulario sing-up">
+        <h2>Completa los requisitos.</h2>
+        <fieldset>
+            <legend>*campos obligatorios</legend>
+            <div class=".registro">
+                <label for="name">Nombre/s:</label><br>
+                <input type="text" placeholder="Nombre/s" required><br>
+                Apellido/s: <br>
+                <input type="text" placeholder="Apellido/s" required><br>
+                Email: <br>
+                <input type="email" placeholder="example@example.com"><br>
+                Contraseña: <br>
+                <input type="password" placeholder="crear contraseña"><br>
+                <input type="password" placeholder="repita su contraseña"><br>
+                Terminos y condiciones: <input type="radio" required><br>
+                <input type="submit" value="Registrarme">
+                <input type="reset" value="Borrar todo">
+            </div>
+            </fieldset>
+    </section>
+    <!-- INICIO FOOTER -->
+    <footer>
+        <div class="foot">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="#">Terminos y condiciones</a></li>
+            </ul>
+        </div>
+        <div class="maps">
+            <h3>Visitanos</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.75956284135!2d-58.59811112114637!3d-34.6157129293909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1721157987273!5m2!1ses-419!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footContacto">
+            <h3>Contactenos</h3>
+            <div class="icons">
+                <a href="www.whatsapp.com">
+                    <i class="fa-brands fa-whatsapp" style="color: #0f8000;"></i>
+                </a>
+                <a href="www.facebook.com">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="www.instagram.com">
+                    <i class="fa-brands fa-square-instagram" style="color: #553e60;"></i>
+                </a>
+            </div>
+        </div>
+        <div class="derechos">
+            <p>Todos los derechos reservador por Copyright!</p>
+        </div>
+    </footer>
+    <!-- FIN FOOTER -->
+</body>
+</html>
